@@ -1,0 +1,47 @@
+{
+    "manufacturer": "Hack Club",
+    "keyboard_name": "glyph",
+    "maintainer": "Vihaan Vinoth",
+    "development_board": "promicro",
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["F7", "B1", "B3", "B2", "B6", "B5", "B4", "E6", "D7", "C6", "D4", "C7"],
+        "rows": ["D0", "D1", "D2"]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "K1", "row": 0, "col": 0},
+                {"label": "K2", "row": 0, "col": 1},
+                {"label": "K3", "row": 0, "col": 2},
+                {"label": "K4", "row": 0, "col": 3},
+                {"label": "K5", "row": 0, "col": 4},
+                {"label": "K6", "row": 0, "col": 5},
+                {"label": "K7", "row": 0, "col": 6},
+                {"label": "K8", "row": 0, "col": 7},
+                {"label": "K9", "row": 0, "col": 8},
+                {"label": "K10", "row": 0, "col": 9},
+                {"label": "K11", "row": 0, "col": 10},
+                {"label": "K12", "row": 0, "col": 11},
+                {"label": "K13", "row": 1, "col": 0},
+                {"label": "K14", "row": 1, "col": 1},
+                {"label": "K15", "row": 1, "col": 2},
+                {"label": "K16", "row": 1, "col": 3},
+                {"label": "K17", "row": 1, "col": 4},
+                {"label": "K18", "row": 1, "col": 5},
+                {"label": "K19", "row": 1, "col": 6},
+                {"label": "K20", "row": 1, "col": 7},
+                {"label": "K21", "row": 1, "col": 8},
+                {"label": "K22", "row": 1, "col": 9},
+                {"label": "K23", "row": 1, "col": 10},
+                {"label": "K24", "row": 1, "col": 11},
+                {"label": "K25", "row": 2, "col": 0},
+                {"label": "K26", "row": 2, "col": 1},
+                {"label": "K27", "row": 2, "col": 2},
+                {"label": "K28", "row": 2, "col": 3},
+                {"label": "K29", "row": 2, "col": 4},
+                {"label": "K30", "row": 2, "col": 5}
+            ]
+        }
+    }
+}
