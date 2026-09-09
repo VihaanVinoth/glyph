@@ -1,10 +1,21 @@
 #include QMK_KEYBOARD_H
 #include "process_steno.h"
 
+
+enum custom_layers {
+    _STENO,
+    _NAV
+};
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    [0] = LAYOUT(
+    [_STENO] = LAYOUT(
         STN_N1, STN_N2, STN_N3, STN_N4, STN_N5, STN_N6, STN_N7, STN_N8, STN_N9, STN_NA, STN_NB, STN_NC,
         STN, S1, STN_TL, STN_PL, STN_HL, STN_ST1, STN_FR, STN_PR, STN_LR, STN_TR, STN_DR, STN_ZR, STN_FN,
         STN_S2, STN_KL, STN_WL, STN_RL, STN_ST2, STN_A, STN_O, STN_E, STN_U, STN_RR, STN_BR, STN_GR
+    ),
+    [_NAV] = LAYOUT(
+        KC_GESC, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_DEL,
+        KC_TRNS, KC_HOME, KC_UP, KC_END, KC_TRNS, KC_TRNS, KC_PGUP, KC_LEFT, KC_DOWN, KC_RGHT, KC_TRNS, KC_TRNS,
+        KC_TRNS, KC_TRNS, KC_DOWN, KC_TRNS, KC_TRNS, KC_PGDN, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
     )
 };

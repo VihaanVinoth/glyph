@@ -1,0 +1,6 @@
+#pragma once
+#define MATRIX_ROW_PINS { D0, D1, D2 }
+#define MATRIX_COL_PINS { F7, B1, B3, B2, B6, B5, B4, E6, D7, C6, D4, C7}
+#define DIODE_DIRECTION COL2ROW
+#define USB_POLLING_INTERVAL_MS 1
+#define DEBOUNCE 2
